@@ -5,10 +5,10 @@ def add():
     return number1+number2
 
 
-def deduct():
+def deduction():
     return number1-number2
 
 def multiple():
-    return add(), deduct()
+    return add(), deduction()
 
 multiple()
