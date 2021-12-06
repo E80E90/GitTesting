@@ -1,6 +1,14 @@
+number1 = 5
+number2 = 3
+
 def add():
-    number1 = 2
-    number2 = 5
     return number1+number2
 
-add()
+
+def deduct():
+    return number1-number2
+
+def multiple():
+    return add(), deduct()
+
+multiple()
